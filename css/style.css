@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    color: #333333;
 }
 
 header {
@@ -19,7 +20,9 @@ header {
 header img {
    width: 150px; 
 }
-
+main {
+    color: #333333;
+}
 .logo {
     display: flex;
     justify-content: left;
@@ -30,7 +33,7 @@ header img {
     margin-top: 30px;
 }
 
-nav a {
+.inquiry0 a {
     position: absolute;
     top: 20%;
     right: 0;
@@ -41,9 +44,9 @@ nav a {
     padding: 11px 40px;
     z-index: 2;
 }
-nav span {
+.inquiry {
     opacity: 0;
-    pointer-events: none;
+    /* pointer-events: none; */
     z-index: 1;
 }
 
@@ -111,6 +114,304 @@ nav span {
 .opening2-2-1{
     margin-top: 80px;
 }
+.earn {
+    background-image: url(../img/introbottom.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 65vh;
+    
+}
+.earn h2 {
+    width: 860px;
+    padding: 40px 50px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+}
+.earn h2:before {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+.earn h2:after {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+.earn p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+    color: rgb(51,51,51);
+}
+.earn strong {
+    border-bottom: 4px solid #ebb94d;
+}
+.about {
+    position: absolute;
+    top: -10%;
+    left: 48%;
+    margin:0 auto 0 auto;
+    padding: 35px 25px;
+    color: white;
+    background-color:  rgb(235,185,77);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    z-index: 2;
+}
+.nomado0 {
+    position: relative;
+    background-color: rgb(254,245,224);
+    z-index: 1;
+    height: 65vh;
+}
+.nomado {
+    padding-top: 40px;
+}
+.nomado h2 {
+    width: 860px;
+    margin: 0 auto 40px auto;
+    padding: 35px 25px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    line-height: 1.3;
+}
+.nomado h2:before {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+.nomado h2:after {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+.nomado p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.skill h3 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px auto;
+    padding: 30px auto;
+}
+.skill {
+    margin: 0 auto;
+    width: 1170px;
+    background-color: rgb(255,255,255);
+    max-width: calc(100% - 40px);
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+.skill-type {
+    text-align: center;
+    padding: 3px;
+}
+.skill-type figure {
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    padding: 10px;
+}
+.skill-type p { 
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+}
+.learn {
+    background-image: url(../img/aboutsecondbg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.basic {
+    text-align: center;
+}
+.basic1 h2 {
+    padding-top: 60px;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+}     
+.basic1 p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.basic1 span {
+    color: #EBB94D;
+}
+.learn {
+    height: 441px;
+    width: 100%;
+}
+.step {
+    background-color: #ffffff;
+    height: 177px;
+    border-radius: 5px;
+    padding: 30px 30px 20px 30px;
+}
+.step h3 {
+    background-color:  #EBB94D;
+    color: #ffffff;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.step-p1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.important {
+    background-color: #016EA9;
+    width: 100%;
+    height: 144px;
+    text-align: center;
+    padding-top: 40px ;
+    line-height: 1;
+}
+.important p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.important span {
+    color: #EBB94D;
+}
+.learn2 {
+    text-align: center;
+    height: 506px;
+}
+.learn2-1 h2 {
+    margin-top: 60px;
+    font-size: 28px;
+}
+.learn2-1 p {
+    font-size: 20px;
+    margin-top: 40px;
+}
+.learn2-2 {
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+.learn2-2 img {
+    width: 80%;
+}
+.merit {
+    padding-top: 30px;   
+    width: 100%;
+    height: 1012px;
+    background-color: #FEF5E0;   
+     
+}
+.merit1 {
+    padding: 35px 25px;
+    margin: 40px auto 40px auto;
+    text-align: center;
+    width: 860px;
+    position: relative;
+}
+.merit1 :before {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+.merit1 :after {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+.merit1 h2 {
+    font-size: 20px;
+}
+.merit1 h3 {
+    font-size: 28px;
+}
+.merit2 img {
+    width: 100%;
+}
+.merit2 h4 {
+    font-size: 20px;
+    color: #ebb94d;
+    font-weight: bold;
+}
+.merit2 p {
+    font-size: 16px;
+}
+.merit3 {
+    text-align: center;
+    /* height: 386px; */
+    margin: 20px auto;
+    width: 1170px;
+    background-color: rgb(255,255,255);
+    max-width: calc(100% - 40px);
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+.merit3 h3 {
+    margin-top: 40px;
+    color: #EBB94D;
+}
+.merit4 {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1;
+}
+
+
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
     .logo p {
@@ -132,7 +433,86 @@ nav span {
     .opening2-2 a {
         font-size: 18px;
     }
+    .earn h2 {
+        width: 90%;
+        font-size: 24px;
+    }
+    .earn p {
+        font-size: 16px;
+    }
+    .nomado h2 {
+        width: 90%;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .nomado p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .skill h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .basic1 h2 {
+        font-size: 20px;
+    }
+    .basic1 p {
+        font-size: 16px;
+    }
+    .step h3 {
+        font-size: 14px;
+    }
+    .step-p1 {
+        font-size: 12px:
+    }
+    .step-p {
+        font-size: 14px;
+    }
+    .important {
+        padding-top: 50px;
+    }
+    .important p {
+        font-size: 16px;
+    }
+    .learn2-1 h2 {
+        font-size: 24px;
+    }
+    .learn2-1 p {
+        font-size: 20px;
+    }
+    .learn2-3 p {
+        font-size: 14px;
+    }
+    .merit {
+        height: 100%;
+    }
+    .merit1 h2 {
+        font-size: 16px;
+    }
+    .merit1 h3 {
+        font-size: 24px;
+    }
+    .merit2 h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .merit2 p {
+        font-size: 14px;
+    }
+    .merit3 h3 {
+        font-size: 24px;
+    }
+    .merit3 p {
+        font-size: 14px;
+    }
+    .merit4 {
+        font-size: 12px;
+    }
+
 }
+
+
+
 
 @media screen and (max-width: 768px) {
     header {
@@ -155,27 +535,158 @@ nav span {
         width:100px;
         top: 20%;
     }
-    nav a {
+    .inquiry0 a {
         z-index: 1;
         display: none;
     }
     .inquiry {
+        display: block;
         position: absolute;
         top: 0;
         right: 0;
-        display: block;
+        box-sizing: border-box;
         width: 50px;
         height: 100%;
         opacity: 1;
-        z-index: 4;
         background-color: rgb(218,107,100);
     }
     .inquiry a {
-        cursor: pointer;
-        pointer-events: all;
+        position: absolute;
+        top: 65%;
+        margin-left: 6px;
+        width: 100%;
+        color: #ffffff;
+        font-size: 10px;
     }
     .inquiry img {
-        z-index: 5;
+        display: block;
+        width: 50%;
+        margin: 5px auto;
     }
-
+    .opening1 {
+        background-image: url(../img/mainsp.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 312px;
+    }
+    .opening1-1 p {
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .opening1-1 img {
+        width: 317px;
+        margin: 20px 0 20px 0;
+    }
+    .opening1-2 p {
+        margin: 0;
+        font-size: 15px;
+    }
+    .opening2 {
+        height: 60vh;
+    }
+    .opening2 p {
+        font-size: 15px;
+    }
+    .opening2-2 a {
+        padding: 20px 80px;
+        font-size: 20px;
+        width:100%;
+    }
+    .earn {
+        height: 596px;
+    }
+    .earn h2 {
+        width: 90%;
+        font-size: 18px;
+    }
+    .earn p {
+        font-size: 15px;
+    }
+    .nomado0 {
+        height: 100%;  
+        padding-bottom: 50px; 
+    }
+    .nomado h2 {
+        font-size: 18px;
+        font-weight: 600;
+        width: 90%;
+    }
+    .nomado p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .skill h3 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .skill {
+        /* width: 90%; */
+    }
+    .skill-type figure {
+        padding: 5px;
+        margin: 0;
+    }
+    .skill-type img {
+        height: 30px;
+    }
+    .skill-type p {
+        margin: 0;
+        font-size: 10px;
+    }
+    .learn {
+        height: 100%;
+    }
+    .basic1 h2 {
+        font-size: 18px;
+    }
+    .basic1 p {
+        font-size: 13px;
+    }
+    .step h3 {
+        width: 80%;
+        font-size: 12px;
+        margin: 0 auto 20px auto;
+    }
+    .step-p1 {
+        font-size: 12px;
+        margin: 0;
+        
+    }
+    .step-p2 {
+        font-size: 12px;
+    }
+    .step {
+        height: 100px;  
+        margin: 0 auto 15px;
+    }
+    .important {
+        padding-top: 30px;
+        height: 100px;
+    }
+    .important p {
+        font-size: 12px;
+    }
+    .learn2-1 h2 {
+        font-size: 18px;
+    }
+    .learn2-1 p {
+        font-size: 15px;
+    } 
+    .learn2-2 {
+        display: inline-block;
+    }
+    .col-xs-3 {
+        width: 25%;
+    }
+    .learn2-3 p {
+        font-size: 12px;
+    }
+    .merit1 h2 {
+        font-size: 15px;
+    }
+    .merit1 h3 {
+        font-size: 18px;
+    }
 }
