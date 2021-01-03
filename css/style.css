@@ -468,8 +468,84 @@ main {
     height: 270px;
     width: 100%;
     background-color: #EBB94D;
-}  
-
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+}
+.why:after {
+    content: "";
+    width: 0;
+    border-top: 30px solid #ebb94d;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+} 
+.why h2 {
+    height: 80px;
+    width: 80px;
+    background-color: #ffffff;
+    color: #EBB94D;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 14px;
+    padding: 30px 20px;
+    margin: 0 auto 30px auto;
+}
+.why2 h3 {
+    width: 860px;
+    position: relative;
+    padding: 20px 10px;
+    margin: 20px auto 20px auto;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.why2 h3:before {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+}
+.why2 h3:after {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+}
+.realization {
+    width: 100%;
+    height: 110vh;
+}
+.realization1 {
+    text-align: center;
+}
+.realization1 h4 {
+    font-size: 28p;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.realization1-1 p {
+    font-size: 16px;
+}
+.realization1-2 p {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.row-1 {
+    display: flex;
+}
 
 
 
@@ -593,7 +669,13 @@ main {
         font-size: 14px;
         line-height: 1.2;
     }
-
+    .why h2 {
+        font-size: 20px;
+    }
+    .why h3 {
+        width: 80%;
+        font-size: 18px;
+    }
     
 
 }
@@ -827,6 +909,14 @@ main {
     }
     .founded2-1 p {
         font-size: 12px;
+    }
+    .why h2 {
+        font-size: 12px;
+    }
+    .why h3 {
+        width: 100%;
+        line-height: 2;
+        font-size: 14px;
     }
 
 
