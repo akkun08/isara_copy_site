@@ -785,6 +785,22 @@
             display: none
         }
         
+        .why-Bangkok {
+            background-image: url(../img/bangkokbg.jpg);
+            background-size: cover;
+            object-fit: cover;
+            background-position: center;
+            width: 100%;
+            height: 55vh;
+            color: #ffffff;
+        }
+        
+        .why-Bangkok1 {
+            text-align: left;
+            /* margin: 50px auto; */
+            padding: 100px 250px;
+        }
+        
         @media screen and (min-width: 768px) and (max-width:1024px) {
             .logo p {
                 font-size: 12px;
@@ -1241,12 +1257,15 @@
             .flow {
                 display: none;
             }
+            .toggle-flow {
+                display: contents;
+            }
             .toggle-flow2-1 {
                 background-color: #FEF5E0;
                 width: 90%;
                 text-align: left;
                 padding: 5px 10px;
-                margin: 0 auto 5px;
+                margin: 0 auto;
             }
             .toggle-flow2-1 a {
                 color: #000;
@@ -1255,24 +1274,25 @@
             }
             .toggle-flow2 {
                 position: relative;
+                margin-bottom: 5px;
             }
             .toggle-flow2-1 :after {
                 background: #FEF5E0;
                 content: '\f067';
                 display: block;
                 font-family: "Font Awesome 5 Free";
-                line-height: 60px;
+                line-height: 55px;
                 position: absolute;
-                right: 0;
+                right: 10%;
                 text-align: center;
                 top: 0;
-                width: 60px;
+                width: 30px;
             }
             .toggle-flow2-1 .on:after {
                 content: '\f068';
             }
             .toggle-flow2-1 img {
-                width: 45px;
+                width: 40px;
                 margin: 5px;
             }
             .toggle-flow2-2 {
