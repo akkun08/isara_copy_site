@@ -793,12 +793,38 @@
             width: 100%;
             height: 55vh;
             color: #ffffff;
+            letter-spacing: 2px;
         }
         
         .why-Bangkok1 {
             text-align: left;
-            /* margin: 50px auto; */
-            padding: 100px 250px;
+            padding-top: 50px;
+            margin: 0 auto;
+            width: 1170px;
+            max-width: calc(100% - 40px);
+        }
+        
+        .why-Bangkok1 h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .why-Bangkok1 p {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        .why-Bangkok1 ul {
+            font-size: 16px;
+            font-weight: 600;
+            padding: 10px 20px;
+            line-height: 2;
+        }
+        
+        #why-Bangkok2 {
+            font-size: 20px;
+            font-weight: 600;
         }
         
         @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -973,6 +999,24 @@
             }
             #flow2-2-1 {
                 font-size: 12px;
+            }
+            .why-Bangkok {
+                height: 40vh;
+            }
+            .why-Bangkok1 {
+                padding: 40px 30px;
+            }
+            .why-Bangkok1 h2 {
+                font-size: 24px;
+            }
+            .why-Bangkok1 p {
+                font-size: 12px;
+            }
+            .why-Bangkok1 ul {
+                font-size: 14px;
+            }
+            #why-Bangkok2 {
+                font-size: 16px;
             }
         }
         
@@ -1305,5 +1349,24 @@
                 padding: 20px;
                 margin: 0 auto 5px;
                 font-size: 12px;
+            }
+            .why-Bangkok {
+                height: 40vh;
+            }
+            .why-Bangkok1 {
+                padding-left: 25px;
+            }
+            .why-Bangkok1 h2 {
+                font-size: 24px;
+            }
+            .why-Bangkok1 p {
+                font-size: 12px;
+            }
+            .why-Bangkok1 ul {
+                font-size: 12px;
+            }
+            #why-Bangkok2 {
+                margin-top: -10px;
+                font-size: 15px;
             }
         }
