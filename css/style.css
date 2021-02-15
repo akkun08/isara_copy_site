@@ -1046,6 +1046,66 @@
         letter-spacing: 5px;
     }
     
+    .question {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        letter-spacing: 3px;
+        margin-bottom: 40px;
+    }
+    
+    .question1 h2 {
+        font-size: 28px;
+        font-weight: 600;
+        padding: 40px;
+    }
+    
+    .question2 {
+        width: 1170px;
+        max-width: calc(100% - 100px);
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+    .question2-1 {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 20px;
+        margin: 5px auto;
+        border: 1px solid #E5E5E5;
+        position: relative;
+    }
+    
+    .question2-1:after {
+        content: '\f107';
+        display: block;
+        font-family: "Font Awesome 5 Free";
+        line-height: 55px;
+        position: absolute;
+        right: 2%;
+        top: 15%;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .question2-1.on:after {
+        content: '\f106';
+        /* font-family: "Font Awesome 5 Free"; */
+    }
+    
+    .question2-1 a {
+        color: #000;
+    }
+    
+    .question2-2 {
+        display: none;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 20px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    
     @media screen and (min-width: 768px) and (max-width:1024px) {
         .logo p {
             font-size: 12px;
@@ -1299,6 +1359,16 @@
         }
         label {
             width: 700px;
+        }
+        .question1 h2 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .question2-1 a {
+            font-size: 16px;
+        }
+        .question2-2 p {
+            font-size: 14px;
         }
     }
     
@@ -1751,5 +1821,24 @@
         }
         label {
             width: 480px;
+        }
+        .question {
+            letter-spacing: 1px;
+        }
+        .question1 h2 {
+            font-size: 18px;
+        }
+        .question2-1 {
+            padding: 5px 30px 5px 5px;
+        }
+        .question2-1:after {
+            position: absolute;
+            top: 0;
+        }
+        .question2-1 a {
+            font-size: 15px;
+        }
+        .question2-1 p {
+            font-size: 12px;
         }
     }
